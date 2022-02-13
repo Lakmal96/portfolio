@@ -94,7 +94,7 @@ export default function Projects() {
             <Card>
               <Card.Body>
                 <Card.Title as="h3">
-                  Web Scraping Projct - 2022
+                  Web Scraping Project - 2022
                   <hr style={{ border: "1px solid #03045e" }}></hr>
                 </Card.Title>
                 <Card.Text>
@@ -125,7 +125,7 @@ export default function Projects() {
             <Card>
               <Card.Body>
                 <Card.Title as="h3">
-                  Power BI Dashbords - 2022
+                  Power BI Dashboards - 2022
                   <hr style={{ border: "1px solid #03045e" }}></hr>
                 </Card.Title>
                 <Card.Text>

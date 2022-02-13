@@ -21,7 +21,10 @@ export default function NavBar() {
     <Styles>
       <Navbar expand="lg">
         <Navbar.Brand href="/">Tharindu</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          style={{ backgroundColor: "#ffffff" }}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="/">Home</Nav.Link>
