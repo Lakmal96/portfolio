@@ -94,25 +94,80 @@ export default function Projects() {
             <Card>
               <Card.Body>
                 <Card.Title as="h3">
-                  Web Scraping Project - 2022
+                  Multi Vendor E-Commerce Website for MYND Innovation -
+                  2021-2022
                   <hr style={{ border: "1px solid #03045e" }}></hr>
                 </Card.Title>
                 <Card.Text>
-                  From the Rotten Tomatoes website, I was able to get the list
-                  of top 100 movies of all time. For this, I have used{" "}
+                  This is being developed as an original product for MYND
+                  Innovation (Internship project). Technologies that are using
+                  for this project are
                   <b>
-                    <mark>Beautiful Soup, requests and Pandas</mark>
+                    <mark>
+                      React, Mongo DB, Express JS, Node JS and Redux.{" "}
+                    </mark>
                   </b>
-                  Python libraries.
+                  This is a group project and now it's in the final stage of the
+                  development.
                 </Card.Text>
 
                 <Button
                   as="a"
-                  href="https://github.com/Lakmal96/Web-Scraping"
+                  href="https://drive.google.com/drive/folders/1GxuIh6sIELzo1pCxeEapIkQARVvgBPuV"
+                  style={{ "text-decoration": "none" }}
+                >
+                  View Documentation
+                </Button>
+              </Card.Body>
+            </Card>
+          </Styles>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col lg={6}>
+          <Styles>
+            <Card>
+              <Card.Body>
+                <Card.Title as="h3">
+                  Portfolio Website - 2022
+                  <hr style={{ border: "1px solid #03045e" }}></hr>
+                </Card.Title>
+                <Card.Text>
+                  This website developed using,
+                  <b>
+                    <mark>React, React-Bootstrap and Styled Components.</mark>
+                  </b>
+                </Card.Text>
+
+                <Button
+                  as="a"
+                  href="https://github.com/Lakmal96/portfolio"
                   style={{ "text-decoration": "none" }}
                 >
                   Visit Github Code
                 </Button>
+              </Card.Body>
+            </Card>
+          </Styles>
+        </Col>
+
+        <Col lg={6}>
+          <Styles>
+            <Card>
+              <Card.Body>
+                <Card.Title as="h3">
+                  Inventory Management System for Agrovet Animal Health (Pvt.)
+                  Ltd. - 2020
+                  <hr style={{ border: "1px solid #03045e" }}></hr>
+                </Card.Title>
+                <Card.Text>
+                  This is a group project developed as an assignment for a
+                  course module. Technologies used are{" "}
+                  <b>
+                    <mark>Java, NetBeans IDE and MySQL.</mark>
+                  </b>
+                </Card.Text>
               </Card.Body>
             </Card>
           </Styles>
@@ -155,76 +210,25 @@ export default function Projects() {
             <Card>
               <Card.Body>
                 <Card.Title as="h3">
-                  Portfolio Website - 2022
+                  Web Scraping Project - 2022
                   <hr style={{ border: "1px solid #03045e" }}></hr>
                 </Card.Title>
                 <Card.Text>
-                  This website developed using,
+                  From the Rotten Tomatoes website, I was able to get the list
+                  of top 100 movies of all time. For this, I have used{" "}
                   <b>
-                    <mark>React, React-Bootstrap and Styled Components.</mark>
+                    <mark>Beautiful Soup, requests and Pandas</mark>
                   </b>
-                </Card.Text>
-
-                <Button as="a" href="#" style={{ "text-decoration": "none" }}>
-                  Visit Github Code
-                </Button>
-              </Card.Body>
-            </Card>
-          </Styles>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col lg={6}>
-          <Styles>
-            <Card>
-              <Card.Body>
-                <Card.Title as="h3">
-                  Multi Vendor E-Commerce Website for MYND Innovation -
-                  2021-2022
-                  <hr style={{ border: "1px solid #03045e" }}></hr>
-                </Card.Title>
-                <Card.Text>
-                  This is being developed as an original product for MYND
-                  Innovation (Internship project). Technologies that are using
-                  for this project are
-                  <b>
-                    <mark>
-                      React, Mongo DB, Express JS, Node JS and Redux.{" "}
-                    </mark>
-                  </b>
-                  This is a group project and now it's in the final stage of the
-                  development.
+                  Python libraries.
                 </Card.Text>
 
                 <Button
                   as="a"
-                  href="https://drive.google.com/drive/folders/1GxuIh6sIELzo1pCxeEapIkQARVvgBPuV"
+                  href="https://github.com/Lakmal96/Web-Scraping"
                   style={{ "text-decoration": "none" }}
                 >
-                  View Documentation
+                  Visit Github Code
                 </Button>
-              </Card.Body>
-            </Card>
-          </Styles>
-        </Col>
-
-        <Col lg={6}>
-          <Styles>
-            <Card>
-              <Card.Body>
-                <Card.Title as="h3">
-                  Inventory Management System for Agrovet Animal Health (Pvt.)
-                  Ltd. - 2020
-                  <hr style={{ border: "1px solid #03045e" }}></hr>
-                </Card.Title>
-                <Card.Text>
-                  This is a group project developed as an assignment for a
-                  course module. Technologies used are{" "}
-                  <b>
-                    <mark>Java, NetBeans IDE and MySQL.</mark>
-                  </b>
-                </Card.Text>
               </Card.Body>
             </Card>
           </Styles>

@@ -33,35 +33,17 @@ export default function Skills() {
                 </Card.Title>
                 <Card.Text>
                   <ul>
-                    <li>
-                      Python
-                      <ul>
-                        <li>Pandas</li>
-                        <ProgressBar animated now={75} />
-                        <li>Numpy</li>
-                        <ProgressBar animated now={65} />
-                        <li>Matplotlib</li>
-                        <ProgressBar animated now={72} />
-                        <li>Scikit Learn</li>
-                        <ProgressBar animated now={35} />
-                        {/* <li>Plotly</li>
-                        <ProgressBar animated now={38} /> */}
-                      </ul>
-                    </li>
-                    <li>R</li>
-                    <ProgressBar animated now={25} />
-                    <li>Power BI</li>
-                    <ProgressBar animated now={65} />
-                    <li>Excel</li>
-                    <ProgressBar animated now={60} />
-                    <li>PostgreSQL</li>
-                    <ProgressBar animated now={70} />
-                    <li>Odoo 13</li>
-                    <ProgressBar animated now={50} />
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaSript</li>
+                    <li>jquery</li>
                     <li>Django</li>
-                    <ProgressBar animated now={60} />
                     <li>MERN Stack</li>
-                    <ProgressBar animated now={55} />
+                    <li>PostgreSQL</li>
+                    <li>Odoo 13</li>
+                    <li>Pandas</li>
+                    <li>Numpy</li>
+                    <li>Matplotlib</li>
                   </ul>
                 </Card.Text>
               </Card.Body>
@@ -80,13 +62,9 @@ export default function Skills() {
                 <Card.Text>
                   <ul>
                     <li>Self-Learning</li>
-                    <ProgressBar animated now={90} />
                     <li>Flexibility</li>
-                    <ProgressBar animated now={80} />
                     <li>Communication</li>
-                    <ProgressBar animated now={65} />
                     <li>Teamwork</li>
-                    <ProgressBar animated now={70} />
                   </ul>
                 </Card.Text>
               </Card.Body>

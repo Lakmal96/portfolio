@@ -32,9 +32,9 @@ export default function Projects() {
                   Profile<hr style={{ border: "1px solid #03045e" }}></hr>
                 </Card.Title>
                 <Card.Text>
-                  A hardworking, a motivated and an enthusiastic individual with
-                  a great passion for the Data Analytics field and wants to
-                  develop insights from raw data.
+                  A hardworking, a motivated and an enthusiastic undergraduate
+                  in Management and Information Technology, with a strong will
+                  to gain new knowledge and develop creative software solutions.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -108,6 +108,16 @@ export default function Projects() {
                   <hr style={{ border: "1px solid #03045e" }}></hr>
                 </Card.Title>
                 <Card.Text>
+                  <h4>Udemy: Online Courses (Web Development)</h4>
+                  <ul>
+                    <li>Learn Python from Basic to Production (2021-01)</li>
+                    <li>Python and Django Framework for Beginners (2021-02)</li>
+                    <li>Bootstrap for Beginners (2021-01)</li>
+                    <li>
+                      React, NodeJS, Express & MongoDB - The MERN Fullstack
+                      Guide (2021-10)
+                    </li>
+                  </ul>
                   <h4>Udemy: Online Courses (Data Analytics)</h4>
                   <ul>
                     <li>
@@ -121,17 +131,6 @@ export default function Projects() {
                     </li>
                     <li>
                       Python Data Analysis & Visualization Masterclass (2021-12)
-                    </li>
-                  </ul>
-
-                  <h4>Udemy: Online Courses (Web Development)</h4>
-                  <ul>
-                    <li>Learn Python from Basic to Production (2021-01)</li>
-                    <li>Python and Django Framework for Beginners (2021-02)</li>
-                    <li>Bootstrap for Beginners (2021-01)</li>
-                    <li>
-                      React, NodeJS, Express & MongoDB - The MERN Fullstack
-                      Guide (2021-10)
                     </li>
                   </ul>
                 </Card.Text>
